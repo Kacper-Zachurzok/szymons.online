@@ -241,6 +241,18 @@ footer > .banner {
   width: 100%;
   height: 100%;
 }
+.iframe-wrapper .facade {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(0, 14%, 22%);
+  color: white;
+  font-size: 2.5em;
+  cursor: pointer;
+}
 
 .img-wrapper {
   position: relative;

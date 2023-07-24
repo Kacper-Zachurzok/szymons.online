@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./css/fontello.css" />
     <title>Simon the Pianist</title>
+	  <script src="./facades.js" defer></script>
   </head>
   <body>
     <header id="welcome">
@@ -91,12 +92,14 @@
               <div class="iframe-wrapper">
                 <iframe
                   width="100%"
-                  src="https://www.youtube.com/embed/EgmiiNzcsrY"
+				          id="EgmiiNzcsrY"
+                  facade-src="https://www.youtube.com/embed/EgmiiNzcsrY?autoplay=1"
                   title="Interstellar Travel"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
                 ></iframe>
+				        <div class="facade" for="EgmiiNzcsrY"><i class="icon-youtube"></i></div>
               </div>
             </div>
             <div>
